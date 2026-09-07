@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dispatch — Rolling Highway Repair</title>
+  <meta name="description" content="Call Rolling Highway Repair 24/7 at (647) 773-6681 or (647) 407-6300." />
+  <link rel="icon" href="assets/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/atelier.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">
+      <img src="assets/logo.jpg" alt="Rolling Highway Repair" />
+      <span>Rolling Highway Repair</span>
+    </a>
+    <nav>
+      <a href="index.html">Index</a>
+      <a href="work.html">Work</a>
+      <a href="coverage.html">Coverage</a>
+      <a href="dispatch.html" aria-current="page">Dispatch</a>
+    </nav>
+    <a class="btn btn-lane" href="tel:+16477736681">Call</a>
+  </header>
+  <main>
+    <section style="border-top:0;padding-top:4rem">
+      <div class="wrap stack-2">
+        <div>
+          <p class="section-label">Dispatch</p>
+          <h2>Two numbers. Twenty-four hours.</h2>
+          <p class="mute">If the unit is down, call. The note is for fleet follow-up. Nothing here invents an email that is not on the van.</p>
+          <ul class="phones">
+            <li><a href="tel:+16477736681">(647) 773-6681</a><small>Dispatch</small></li>
+            <li><a href="tel:+16474076300">(647) 407-6300</a><small>Line two</small></li>
+          </ul>
+        </div>
+        <form class="note">
+          <p class="section-label">Non-urgent note</p>
+          <label>Name <input name="name" required /></label>
+          <label>Phone <input name="phone" type="tel" required /></label>
+          <label>Location <input name="location" placeholder="Highway, km, yard, or city" required /></label>
+          <label>Unit <input name="unit" placeholder="Tractor / trailer" /></label>
+          <label>What failed <textarea name="failed"></textarea></label>
+          <button class="btn btn-lane" type="submit">Send note</button>
+          <p class="mute" style="margin-top:.8rem;font-size:.85rem">Does not replace a live dispatch call.</p>
+        </form>
+        <div class="confirm" hidden>
+          <h2>Note stored on this device.</h2>
+          <p class="mute">Call (647) 773-6681 if the unit is down now.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="foot-grid">
+      <div>
+        <strong>Rolling Highway Repair</strong>
+        <p class="mute">Certified 310T. 24/7 mobile truck repair across Ontario. Built to keep you moving.</p>
+      </div>
+      <div>
+        <p class="section-label">Dispatch</p>
+        <a href="tel:+16477736681">(647) 773-6681</a><br />
+        <a href="tel:+16474076300">(647) 407-6300</a>
+      </div>
+      <div>
+        <p class="section-label">Follow</p>
+        <a href="https://www.instagram.com/rolling.highway.repair/">Instagram</a><br />
+        <a href="https://www.tiktok.com/@rollinghighwayrepair">TikTok</a>
+      </div>
+    </div>
+    <div class="legal"><span>© 2026 Rolling Highway Repair</span><span>Mississauga · Ontario</span></div>
+  </footer>
+  <div class="callbar"><a class="btn btn-lane btn-full" href="tel:+16477736681">Call (647) 773-6681</a></div>
+  <script src="js/nav.js"></script>
+  <script src="js/motion.js"></script>
+  <script src="js/dispatch.js"></script>
+</body>
+</html>
